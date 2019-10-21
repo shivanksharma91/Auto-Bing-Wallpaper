@@ -12,3 +12,9 @@ So to automate it using Python, i wanted the script to fulfill the following tas
   3. Keep files only greater than 300 kb
   4. Keep only image files whose resolution is  1080 x 1920
   5. Repeat the above steps everytime i log on. (For getting fresh stock of images)
+  
+  
+  
+ Wallpaper.py is the main module file.
+ Copy_Rename.py is the secondary module including the functions for copying, renaming and getting the image resolution.
+ Run_Py_Script.bat is a windows batch file which executes the Wallpaper.py file. It is used in Task Scheduler as an input.
