@@ -1,8 +1,3 @@
-#copy files from windows folder to new location
-#change the file extension
-#Set wallpaper
-#add new file everyday
-    #compare from yestrday, if today then add else not add
 
 if __name__ == '__main__':
     import shutil
