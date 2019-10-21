@@ -29,6 +29,5 @@ def img_resolution(image):
         a= img_file.read(2)
 
         width = (a[0]<<8)+a[1]
-
     return width, height
     

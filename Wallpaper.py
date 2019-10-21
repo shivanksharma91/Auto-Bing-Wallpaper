@@ -18,7 +18,14 @@ if __name__ == '__main__':
         cr.copyrename(w_wallpaper,dest)
 
     for img in os.listdir(dest):
-        print(cr.img_resolution(img))
+        image= os.path.abspath(os.path.join(dest,img))
+        print (img)
+        print(image)
+        print(cr.img_resolution(image))
+        width,y=cr.img_resolution(image)
+        print(width, "is the width")
+        if width != 1920:
+            os.remove(image)
 else:
     print("Run Wallpaper.py")
 
